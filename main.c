@@ -44,8 +44,8 @@ int main(int argc, char** argv)
 		ex_line[c1] = '\0';
 		if (ex_line[0] == '\0')
 			break;
-		op_code = getopcode();
-		opcodecompare(&stack, num_line, op_code);
+		op_code = get_code();
+		select_function(&stack, num_line, op_code);
 		free(op_code);
 		free(ex_line);
 	}
