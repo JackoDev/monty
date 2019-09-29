@@ -51,6 +51,6 @@ int main(int argc, char** argv)
 	}
 	fclose(archivo);
 	free(ex_line);
-	free_stack(stack);
+	free_all(stack);
 	return (0);
 }
