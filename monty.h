@@ -39,4 +39,7 @@ typedef struct instruction_s
 /*GLOBAL VARIABLES*/
 extern char* ex_line;
 /*FUNCTION PROTOTYPES*/
+void push(stack_t** stack, unsigned int num_line);
+void pall(stack_t** stack, unsigned int num_line);
+void free_all(stack_t* stack);
 
