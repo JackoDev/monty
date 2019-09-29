@@ -42,5 +42,6 @@ extern char* ex_line;
 void push(stack_t** stack, unsigned int num_line);
 void pall(stack_t** stack, unsigned int num_line);
 void free_all(stack_t* stack);
-
+char *get_code(void);
+void select_function(stack_t** stack, unsigned int num_line, char* opcode);
 #endif
