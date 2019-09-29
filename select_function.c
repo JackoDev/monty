@@ -10,9 +10,9 @@ void select_function(stack_t** stack, unsigned int num_line, char* opcode)
 {
 	int i = 0;
 	instruction_t ops[] = {
-		{"push", push}, {"pall", pall}, {"pint", pint},	{"pop", pop}, 
+		{"push", push}, {"pall", pall},/* {"pint", pint},	{"pop", pop}, 
 		{"swap", swap}, {"add", add}, {"nop", nop}, {"sub", sub}, 
-		{"div", divide}, {"mul", mul}, {"mod", mod}, {"pchar", pchar},
+		{"div", divide}, {"mul", mul}, {"mod", mod}, {"pchar", pchar},*/
 		{NULL, NULL}
 		};
 

@@ -12,11 +12,11 @@ char *get_code(void)
 	if (opcodebuffer == NULL)
 		return (NULL);
 
-	while (line[i] == ' ')
+	while (ex_line[i] == ' ')
 		i++;
-	while (line[i] != ' ' && line[i] != '\0')
+	while (ex_line[i] != ' ' && ex_line[i] != '\0')
 	{
-		opcodebuffer[j] = line[i];
+		opcodebuffer[j] = ex_line[i];
 		i++;
 		j++;
 	}
